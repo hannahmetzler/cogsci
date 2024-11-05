@@ -149,7 +149,7 @@ Observational social media analyses of emotional dynamics around news
 :::
 
 ::: {.column width="28%"}
-Socio-emotional interventions ![](images/Facebook%20Post_Homeopathy_Intervention_Cropped.png)
+Socio-emotional interventions ![](images/Facebook_Post_Homeopathy_Intervention_Cropped.png)
 :::
 
 ::: {.column width="28%"}
@@ -164,7 +164,7 @@ Socio-emotional interventions ![](images/Facebook%20Post_Homeopathy_Intervention
 ## Emotions & COVID-misinformation
 
 - Actual true & false COVID-19 headlines from fact-checking websites & mainstream news sources in Austria in 2021
-- Accuracy ratings (discernment), COVID-19 misperceptions
+- Accuracy ratings (discernment)
 - Emotions increase gulliblity to political news in the US <small> (Martel et al. [2020](https://cognitiveresearchjournal.springeropen.com/articles/10.1186/s41235-020-00252-3) )</small>
 
 ::::: columns
@@ -185,23 +185,20 @@ knitr::include_graphics('images/NR14.PNG')
 ## Emotional state vs. response
 
 :::::: columns
-::: {.column width="35%"}
-::: incremental
+::: {.column width="40%"}
 - N=422
 - Emotional state before exposure
+  - null-effects
 - Emotional response
--   State: null-effects
--   Response:
     -   More anger
     -   Less joy
+    
+$\rightarrow$ Immediate emotion
 
-:::   
 :::
 
 :::: {.column width="60%"}
-::: fragment
 ![](images/emo_diff_plot_color.svg){width="500"}
-:::
 ::::
 ::::::
 
@@ -256,6 +253,28 @@ maybe include misperceptions figure with anger
 
 ## How to identify misinformation?
 
+### Stories
+
+- fact-checked stories
+- extreme and clearly false
+- fringe communities
+- small part of the problem
+
+### Source
+
+- biased and misleading
+- everyone
+
+::: notes
+- multiple decisions of researchers
+- It's hard to identify misinfo - focus on false stories
+-  Grey area content, biased content spreads more widely, more dangerous
+-  Broad definition of misinfo: not easy to identity
+:::
+
+
+## Source-based approaches
+
 NewsGuard: Expert ratings of news sources
 
 ::::: columns
@@ -282,7 +301,9 @@ Lühring, Shetty, Lazzaroni, Metzler & Lasser, [2024](https://doi.org/10.31234/o
 
 ## Observational social media analysis
 
-1.  Collecting a large-scale & long-term data for German-speaking context
+## Objectives
+
+1.  Collecting a large-scale & long-term data across the trustworthiness spectrum of news for German-speaking context
 
 $\rightarrow$ **Tweets with links to news sources rated by NewsGuard**
 
@@ -316,9 +337,9 @@ Lühring, Garcia,  Waldherr, Shetty, & Metzler (in prep.)
 
 :::
 
-## Emotions are associated with trustworthiness
+## Emotions are linked to  trustworthiness
 
-![](images/emotions_means.svg)
+![](images/daily_emotions_rating_smoothed.png)
 
 ::: footer
 Lühring, Garcia,  Waldherr, Shetty, & Metzler (in prep.)
@@ -388,8 +409,12 @@ Regressions to predict emotion in discussion from all emotions in news post
   - Motivation to reflect: **first doubts**
   - Actually consuming new information 
   - Repeat often, over many sources & for associated beliefs
-  
+
 ::: 
+
+::: fragment
+$\rightarrow$ Focus on change of feelings in first step
+:::
 
 ## Social identity intervention
 
