@@ -31,6 +31,22 @@ editor: source
 
 2) Example research project: [Emotional Misinformation Spreading](https://hannahmetzler.eu/emomis)
 
+::: notes
+time notes and planning
+
+Overview slides, book/article recommendations, last slide (little time, 30 sec): 4
+Section title slides (no time required, 15 sec): 6
+Normal slides (including 1. title slide): 34 - 9 = 26 normal slides
+I presented 26-4=22 normal slides and 4 overview slides in 50 minutes.
+- Overview: 4x0.5 minutes = 2 minutes
+- 48 minutes for 22 normal slides
+
+Results: 
+- 27.5 normal slides = 1 hour. 
+- Counting normal and quick slides (26 presented in 50 minutes): 26.4 slides/1 hour
+Teaching: 2.2 minutes per normal slide. Rule of thumb: Including quick slides, a bit less than 1/2 as many slides as minutes. If I stick to slide content (no story add ons), then 1 slide 2 minutes is fine. 
+:::
+
 # What is Computational Social Science?
 
 ## Computational Social Science
@@ -73,9 +89,10 @@ Application of Computer Science & Statistics to empirical questions about human 
 - Questions & interpretations based on evidence from social sciences
 :::
 ::: column
-![](images/interdisciplinarity_css.png)
+![](images/interdisciplinarity_css.png){width='420'}
 :::
 :::
+
 
 ## Why digital trace data? 
 
@@ -108,6 +125,11 @@ Good references for more: [Lazer et al. 2021](https://www.nature.com/articles/s4
 :::
 
 # Emotions & Misinformation 
+
+::: notes
+16 minutes till here
+:::
+
 
 ## Introduction
 
@@ -253,17 +275,23 @@ maybe include misperceptions figure with anger
 
 ## How to identify misinformation?
 
+::: columns
+::: column
 ### Stories
 
-- fact-checked stories
+- fact-checked news stories
 - extreme and clearly false
 - fringe communities
-- small part of the problem
+- small part of the misinformation problem
+:::
+::: column
+### Sources
 
-### Source
-
-- biased and misleading
-- everyone
+- all content published by a source, sources differ in trustworthiness/information quality
+- selective, biased or misleading information, including grey area content
+- broader engagement
+:::
+::::
 
 ::: notes
 - multiple decisions of researchers
@@ -301,7 +329,7 @@ Lühring, Shetty, Lazzaroni, Metzler & Lasser, [2024](https://doi.org/10.31234/o
 
 ## Observational social media analysis
 
-## Objectives
+### Objectives
 
 1.  Collecting a large-scale & long-term data across the trustworthiness spectrum of news for German-speaking context
 
@@ -399,6 +427,10 @@ Regressions to predict emotion in discussion from all emotions in news post
 
 # Can we change misperceptions? <br> $\rightarrow$ Interventions
 
+::: notes
+skipped the interventions part (4 slides) to manage 45-50 minutes
+:::
+
 ## Changing beliefs is hard
 
 ::: incremental
@@ -470,6 +502,8 @@ receipes
 Shetty, Lühring, Garcia, Waldherr & Metzler (in preparation)
 :::
 
+# Conclusion
+
 ## A new theoretical perspective on misinformation
 
 ::: incremental
@@ -482,17 +516,17 @@ Shetty, Lühring, Garcia, Waldherr & Metzler (in preparation)
 
 :::
 
-::: notes
--   reduced trust in politics, science, institutions
--   loss of privilege/status
-:::
-
 ::: footer
 Mercier [2020](https://www.jstor.org/stable/j.ctvn1tbqq); 
 Budak et al. [2024](https://www.nature.com/articles/s41586-024-07417-w);
 Alper [2022](https://onlinelibrary.wiley.com/doi/abs/10.1002/ejsp.2919); Altay et al. [2022](https://journalqd.org/article/view/3617); 
 Baribi-Bartov et al. [2024](https://www.science.org/doi/10.1126/science.adl4435); 
 Altay et al. [2024](https://journals.sagepub.com/doi/10.1177/14614448241247822)
+:::
+
+::: notes
+-   reduced trust in politics, science, institutions
+-   loss of privilege/status
 :::
 
 
